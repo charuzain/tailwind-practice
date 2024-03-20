@@ -14,10 +14,10 @@
       .alert {
         background-color: #fff;
         border-radius: 0.5rem;
-        max-width: 500px;
+        max-width: 400px;
         display: flex;
         gap: 2rem;
-        margin: 200px auto;
+        margin: 200px auto 0;
         padding: 1rem;
         box-shadow: 0px 20px 25px -25px rgba(0, 0, 0, 0.1),
           0px 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -44,5 +44,20 @@
         <p class="alert-message">You are about to delete a post</p>
       </div>
     </div>
+    <!-- Using tailwind -->
+    <div
+      class="flex items-center justify-center max-w-sm mx-auto p-12 gap-x-8 rounded-lg bg-white-50 py-5 my-5 shadow-lg shadow-white-500"
+    >
+      <img src="/assets/img/warning.svg" alt="Warning" class="w-8" />
+      <div>
+        <h3 class="font-bold text-neutral-500">Are you sure ?</h3>
+        <p class="text-neutral-500">You are about to delete a post</p>
+      </div>
+    </div>
   </body>
 </html>
+
+<!-- For Width  & height -->
+<!-- Class : w , h -->
+
+<!-- for flex : flex -->
